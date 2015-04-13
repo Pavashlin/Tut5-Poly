@@ -7,7 +7,11 @@ Rectangle::Rectangle()
 	Length = 0;
 	Bredth = 0;
 }
-
+Rectangle::Rectangle(int x, int y)
+{
+	Length = x;
+	Bredth = y;
+}
 
 Rectangle::~Rectangle()
 {
