@@ -36,7 +36,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	shape3->perimeter();
 	shape3->area();
 	shape3->draw();
-	return 0;
 
 
 	Triangle a(1, 2, 3), b(4, 5, 6), c(7, 8, 9);						//added array with objects
@@ -58,6 +57,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		shapearray[i]->draw();
 		cout << endl;
 	}
+
+	return 0;
 
 }
 
