@@ -39,11 +39,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	return 0;
 
 
-	Triangle a(1, 2, 3), b(4, 5, 6), c(7, 8, 9);
+	Triangle a(1, 2, 3), b(4, 5, 6), c(7, 8, 9);						//added array with objects
 	Circle d(3);
 	Rectangle e(4, 5);
-
-
 
 	Shape *shapearray[5];
 	shapearray[0] = &a;
@@ -51,6 +49,15 @@ int _tmain(int argc, _TCHAR* argv[])
 	shapearray[2] = &c;
 	shapearray[3] = &d;
 	shapearray[4] = &e;
+
+	for (int i = 0; i < 5; i++)											// illustrates polymorphic behavior
+	{
+		shapearray[i]->name();
+		shapearray[i]->perimeter();
+		shapearray[i]->area();
+		shapearray[i]->draw();
+		cout << endl;
+	}
 
 }
 
