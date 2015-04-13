@@ -15,18 +15,6 @@ public:
 	~Shape();
 };
 
-class circle :public Shape
-{
-private:
-	int radius;
-public:
-	void name();
-	void perimeter();
-	void area();
-	void draw();
-	circle();
-	circle(int);
-	~circle();
-};
+
 
 #endif
