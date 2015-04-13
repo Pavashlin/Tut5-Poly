@@ -1,5 +1,8 @@
 #pragma once
-#include<iostream>
+#ifndef SHAPE_H
+#include SHAPE_H
+using namespace std;
+
 class Shape
 {
 public:
@@ -26,3 +29,4 @@ public:
 	~circle();
 };
 
+#endif
