@@ -5,7 +5,7 @@ using namespace std;
 
 Shape::Shape()
 {
-}
+};
 
 
 Shape::~Shape()

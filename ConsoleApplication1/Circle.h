@@ -2,7 +2,7 @@
 #include "Shape.h"
 #ifndef CIRCLE_H
 #define CIRCLE_H
-class Circle :public Shape
+class Circle : public Shape
 {
 	private:
 		int radius;
