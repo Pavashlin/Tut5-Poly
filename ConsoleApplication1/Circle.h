@@ -6,6 +6,7 @@ class Circle : public Shape
 {
 	private:
 		int radius;
+		float const pi = 3.142;
 	public:
 		void name();
 		void perimeter();
