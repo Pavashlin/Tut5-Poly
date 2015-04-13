@@ -1,6 +1,6 @@
 #pragma once
 #ifndef SHAPE_H
-#include SHAPE_H
+#define SHAPE_H
 using namespace std;
 
 class Shape
