@@ -1,4 +1,5 @@
 #pragma once
+#include<iostream>
 class Shape
 {
 public:
@@ -9,5 +10,19 @@ public:
 
 	Shape();
 	~Shape();
+};
+
+class circle :public Shape
+{
+private:
+	int radius;
+public:
+	void name();
+	void perimeter();
+	void area();
+	void draw();
+	circle();
+	circle(int);
+	~circle();
 };
 
